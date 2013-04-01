@@ -1,0 +1,31 @@
+{
+    "name": "slm/three-step-view",
+    "description": "A small modules that enables the three step layout pattern in your Zend Framework 2 application",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "view",
+        "layout"
+    ],
+    "homepage": "https://github.com/juriansluiman/SlmThreeStepView",
+    "authors": [
+        {
+            "name": "Jurian Sluiman",
+            "email": "jurian@juriansluiman.nl",
+            "homepage": "http://juriansluiman.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3.",
+        "zendframework/zendframework": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SlmThreeStepView": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
