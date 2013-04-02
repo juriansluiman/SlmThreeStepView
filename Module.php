@@ -92,6 +92,7 @@ class Module implements
 
             $model = $e->getModel();
             if (in_array($model->getTemplate(), $blacklist)) {
+                $skip = true;
                 return;
             }
 
